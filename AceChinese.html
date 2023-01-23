@@ -1,0 +1,165 @@
+
+<!-- saved from url=(0037)https://aceclez.github.io/AceChinese/ -->
+<html translate="no"><!-- Credits to Tiyam Foyraz . 2017 --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+ <meta name="google" content="notranslate">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <script src="./AceChinese_files/remove-inspect.js"></script>				<!--PREVENT INSPECT-->
+<title>AceChinese</title>										<!--TO BE UPDATED IN EVERY PAGE-->
+<!-- add icon link -->										        <!--TO BE UPDATED IN EVERY PAGE-->
+<link rel="icon" href="https://i.ibb.co/6trtbV0/Logo-ace-chinese-V2.png" type="image/x-icon">	<!--TO BE UPDATED IN EVERY PAGE-->
+<style>
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background: url("https://i.pinimg.com/originals/8b/a8/19/8ba819100838b2c39ef496deef6ad633.jpg") no-repeat center fixed;
+            background-size: cover;
+            transition: 2s;
+        }
+        
+        .wrapper{
+            width: 100%;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.47);
+        }
+/*profile image style*/
+        .profile-image{
+            width: 80px;
+            height: 80px;
+            text-align: center;
+            margin: -25px auto;
+        }      
+        
+      img{
+            width: 100%;
+         }
+/*end of profile image style*/
+      /*pop-up window*/
+       #pop-up{
+         background: skyblue;
+         font-weight: bold;
+         width: 30%;
+         position: relative;
+         top: 25%;
+         margin: 0 auto;
+         text-align: center;
+         border-radius: 0 16px 0 16px;
+         padding: 3%;
+         font-family: monospace;
+         font-size: 18px;
+         display: none;
+         vertical-align: middle;
+         animation: move 2s infinite;
+         box-shadow: 4px 5px 15px #363636;
+        }
+        
+        @keyframes move{
+            0%{transform: translateY(6%);}
+            50%{transform: translateY(-6%);}
+            100%{transform: translateY(6%);}
+        }
+/*form section style*/
+        #form-section{
+            width: 280px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background: rgba(137, 137, 137, 0.62);
+            border-radius: 8px;
+            box-shadow: 6px 5px 35px black;
+        }
+        
+        #form-section .form-container{
+            width: 79%;
+            margin: 70px auto;
+        }
+        
+        #form-section .form-container p{
+            font-family: sans-serif;
+            text-align: center;
+        }
+        
+        #form-section .form-container a{
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        #form-section .form-container a:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        
+        .form-input{
+            display: block;
+            margin: 5% auto;
+            padding: 6% 6%;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 4px 5px 15px #363636;
+        }
+        
+        .form-button{
+            margin-left: 70px;
+            margin-top: 60px;
+            padding: 10px 15px;
+            background: #248e75;
+            border-radius: 3px;
+            border: 1px solid #248e75;
+            color: #efefef;
+            font-weight: bold;
+            font-size: 13px;
+            font-family: sans-serif;
+            transition: color .5s , background .5s;
+            box-shadow: 6px 5px 16px #363636;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .form-button:hover{
+            background: #efefef;
+            color: #248e75;
+            border: 1px solid #248e75;
+            cursor: pointer;
+        }      
+        .tnc { color: #fff; text-shadow: 0 0 10px rgba(0,0,0,0.3); letter-spacing:1px; text-align:center; }
+        a{
+  color: #66b3ff;
+}
+ 
+/* end of form section style */
+</style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- On-click popup window -->
+        <div id="pop-up"></div>
+      <div id="form-section">
+    <!-- form section -->
+  <h1 class="tnc">AceChinese V1</h1>
+  
+  
+<h3 class="tnc">请在登录前<strong>仔细</strong>阅读<a href="https://aceclez.github.io/AceChinese/user-policy.html" target="_blank">用户条款</a></h3>
+        <form>
+       <div class="form-container">
+             <input type="text" name="username" placeholder="用户名" class="form-input username">
+             <input type="password" name="password" placeholder="密码" class="form-input password">
+             
+    <!-- submit button section -->
+      <input onclick="change()" type="button" class="form-button" value="登录账号">
+             
+      </div> 
+        </form>
+       </div>
+    </div>
+    
+    
+    
+<script src="./AceChinese_files/login-identifierV5.js">
+</script>
+
+
+</body></html>
