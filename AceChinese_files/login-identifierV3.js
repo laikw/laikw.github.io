@@ -21,6 +21,8 @@ function change() {
   var x = document.querySelector(".username").value;
   var y = document.querySelector(".password").value;
 
+  alert(x)
+  alert(y)
   console.log("x:" + x)
   console.log("y:" + y)
 
